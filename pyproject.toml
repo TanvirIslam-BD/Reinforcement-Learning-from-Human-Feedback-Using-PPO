@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ppo-rlhf"
+version = "1.0.0"
+description = "RLHF with GPT-2 + PPO (TRL PPOTrainer): tune GPT-2 to write positive/negative reviews using a sentiment classifier as the reward."
+readme = "README.md"
+requires-python = ">=3.9"
+
+[tool.setuptools.packages.find]
+where = ["src"]
