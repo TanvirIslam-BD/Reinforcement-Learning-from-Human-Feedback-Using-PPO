@@ -118,8 +118,4 @@ python scripts/compare_ppo.py --model-dir outputs/ppo-good --bs 16
 - **Pinned versions** match the lab (`trl 0.11`, `transformers 4.43.4`).
 
 ## Credits
-
-Adapted from the IBM Skills Network lab by Joseph Santarcangelo, Ashutosh Sagar,
-and Hailey Quach. Based on Hugging Face TRL's
-[`gpt2-sentiment`](https://github.com/huggingface/trl/blob/main/examples/notebooks/gpt2-sentiment.ipynb)
-example. Dataset: [imdb](https://huggingface.co/datasets/imdb).
+ Dataset: [imdb](https://huggingface.co/datasets/imdb).
